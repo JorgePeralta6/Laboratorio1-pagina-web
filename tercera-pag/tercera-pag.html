@@ -5,278 +5,9 @@
   <meta charset="UTF-8" />
   <title>Pagina Web</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-  <style>
-    body {
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-position: center;
-    }
-
-    .container * {
-      font-size: 15px;
-      font-family: Arial, sans-serif;
-      font-weight: bold;
-      text-align: center;
-      color: #232755;
-    }
-
-    .container2 * {
-      font-size: 15px;
-      font-family: Arial, sans-serif;
-      font-weight: bold;
-      color: #232755;
-      text-align: left;
-    }
-
-    .container3 * {
-      font-size: 35px;
-      font-family: Arial, sans-serif;
-      font-weight: bold;
-      color: white;
-    }
-
-    .figure {
-      background-color: white;
-    }
-
-    .img {
-      width: 200px;
-    }
-
-    .imgBi {
-      width: 100px;
-    }
-
-    .poker-card {
-      width: 500px;
-      height: 500px;
-      background-color: white;
-      border-color: white;
-    }
-
-    .imgkinal {
-      width: 1897px;
-      height: auto;
-      object-fit: cover;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .poker-img {
-      width: 400px;
-      height: auto;
-      object-fit: cover;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .card-text {
-      font-family: Arial, sans-serif;
-      font-weight: bold;
-    }
-
-    .placeholder-glow {
-      border-radius: 10px;
-    }
-
-    .contenedor {
-      margin-top: 200px;
-      display: flex;
-      align-items: flex-start;
-      gap: 20px;
-    }
-
-    .contenedor img {
-      width: 770px;
-      height: auto;
-      border-radius: 8px;
-    }
-
-    .timmana-regular h1 {
-      margin: 0;
-      font-size: 2.5em;
-      color: #007bff;
-    }
-
-    .timmana-regular p {
-      font-size: 2.5em;
-      color: #007bff;
-      line-height: 1.6;
-    }
-
-    .patio {
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      gap: 20px;
-      margin-top: 200px;
-    }
-
-    .patio .texto {
-      max-width: 1000px;
-    }
-
-    .patio img {
-      width: 500px;
-      height: auto;
-      border-radius: 8px;
-    }
-
-    /* Nuevos estilos para las cajas */
-    .number-box-container {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      margin-top: 50px;
-    }
-
-    .number-box {
-      text-align: center;
-      padding: 20px;
-      border-radius: 8px;
-      width: 150px;
-      height: 150px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      font-family: Arial, sans-serif;
-      font-weight: bold;
-      color: white;
-    }
-
-    .number-box h1 {
-      margin: 0;
-      font-size: 36px;
-    }
-
-    .number-box p {
-      margin: 5px 0 0;
-      font-size: 14px;
-    }
-
-    .number-box.yellow {
-      background-color: #febd84;
-    }
-
-    .number-box.burgundy {
-      background-color: #470d3b;
-    }
-
-    .number-box.blue {
-      background-color: #002147;
-    }
-
-    .number-box.orange {
-      background-color: #ff5252;
-    }
-
-    .footer {
-      background-color: #ffa726;
-      padding: 40px 20px;
-      border-top: 1px solid #ddd;
-      color: #fff;
-    }
-
-    .footer img {
-      max-width: 100%;
-      height: auto;
-    }
-
-    .footer p,
-    .footer a {
-      margin: 0;
-      color: #fff;
-    }
-
-    .footer a:hover {
-      text-decoration: underline;
-    }
-
-    .footer ul {
-      list-style: none;
-      padding: 0;
-      display: flex;
-      gap: 10px;
-      justify-content: center;
-    }
-
-    .footer ul li {
-      display: inline;
-    }
-
-    .footer ul li img {
-      width: 32px;
-      height: 32px;
-    }
-
-    .footer h1 {
-      font-size: 1.2rem;
-      text-align: center;
-      margin-top: 20px;
-    }
-
-    .contact-info,
-    .address {
-      text-align: left;
-      font-size: 14px;
-      line-height: 1.8;
-    }
-
-    .contact-info h3,
-    .address h3 {
-      font-size: 16px;
-      margin-bottom: 10px;
-      text-transform: uppercase;
-    }
-
-    .logo {
-      text-align: center;
-    }
-
-    .logo img {
-      width: 100px;
-      margin-bottom: 10px;
-    }
-
-    .social-media {
-      display: flex;
-      gap: 10px;
-      justify-content: center;
-    }
-
-    .social-media a {
-      text-decoration: none;
-      color: white;
-      font-size: 18px;
-      display: inline-block;
-      background-color: #007bff;
-      border-radius: 50%;
-      width: 40px;
-      height: 40px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: background-color 0.3s ease;
-    }
-
-    .social-media a:hover {
-      background-color: #0056b3;
-    }
-
-    .footer-bottom {
-      text-align: center;
-      margin-top: 20px;
-      font-size: 12px;
-    }
-
-    .navbar1 {
-      margin-top: 100px;
-    }
-  </style>
+    <link rel="stylesheet" href="./tercera-pag.css">
 </head>
 
 <body>
@@ -377,24 +108,6 @@
     </div>
   </nav>
 
-  <style>
-    .logo-navbar {
-      height: 50px;
-      object-fit: contain;
-    }
-
-    .text-center ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-
-    .text-center li {
-      display: block;
-      text-align: center;
-    }
-  </style>
-
   <img class="imgkinal" src="../assets/image/kinal.png" />
 
   <div class="container4 my-5 d-flex justify-content-center gap-3">
@@ -416,116 +129,115 @@
     </div>
   </div>
 
-  <div class="container d-flex justify-content-center gap-3">
-    <div class="container row g-4">
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="card poker-card">
-          <img src="../assets/image/Basico.png" class="card-img-top poker-img" alt="..." />
-          <div class="card-body">
-            <p class="card-text">
-              Kinal ofrece su programa de Educación Básica para todos los
-              jóvenes que buscan una enseñanza técnica y excelencia académica.
-            </p>
-          </div>
+  <div class="container my-5">
+  <div class="row g-4 justify-content-center">
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card-img-top w-100">
+        <img src="../assets/image/Basico.png" class="card-img-top" alt="Educación Básica">
+        <div class="card-body">
+          <h5 class="card-title text-primary fw-bold">Educación Básica</h5>
+          <p class="card-text">
+            Kinal ofrece su programa de Educación Básica para todos los jóvenes que buscan una enseñanza técnica y excelencia académica.
+          </p>
         </div>
       </div>
     </div>
 
-    <div class="row g-4">
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="card poker-card">
-          <img src="../assets/image/Diver.png" class="card-img-top poker-img" alt="..." />
-          <div class="card-body">
-            <p>
-              Durante 3 años se prepara a los joven de forma técnica y
-              académica, el egresado estará listo trabajar en la area técnica
-              de la especialidad que eligió estudiar; el título obtenido le
-              permitirá ingresar a la universidad.
-            </p>
-          </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card-img-top w-100"">
+        <img src="../assets/image/Diver.png" class="card-img-top" alt="Diversificado">
+        <div class="card-body">
+          <h5 class="card-title text-primary fw-bold">Diversificado</h5>
+          <p class="card-text">
+            Durante 3 años, se prepara a los jóvenes en áreas técnicas y académicas, otorgándoles el título que les permite continuar en la universidad.
+          </p>
         </div>
       </div>
     </div>
 
-    <div class="row g-4">
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="card poker-card">
-          <img src="../assets/image/Tecnica.png" class="card-img-top poker-img" alt="..." />
-          <div class="card-body">
-            <p>
-              Contamos con más de 30 especialidades técnicas y tecnológicas
-              que pueden favorecer tu crecimiento y/o tu inserción laboral.
-            </p>
-          </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card-img-top w-100">
+        <img src="../assets/image/Tecnica.png" class="card-img-top" alt="Técnicas y Tecnológicas">
+        <div class="card-body">
+          <h5 class="card-title text-primary fw-bold">Técnicas y Tecnológicas</h5>
+          <p class="card-text">
+            Más de 30 especialidades técnicas y tecnológicas disponibles para tu crecimiento profesional o inserción laboral.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card-img-top w-100">
+        <img src="../assets/image/Negocio.png" class="card-img-top" alt="Negocios">
+        <div class="card-body">
+          <h5 class="card-title text-primary fw-bold">Negocios</h5>
+          <p class="card-text">
+            Diseñamos programas de formación profesional adaptados a tus necesidades de capacitación.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card-img-top w-100">
+        <img src="../assets/image/Universitario.png" class="card-img-top" alt="Universitario">
+        <div class="card-body">
+          <h5 class="card-title text-primary fw-bold">Universitario</h5>
+          <p class="card-text">
+            Estudios avalados por la Universidad del Istmo, ideales para quienes desean continuar a nivel universitario tras una carrera técnica.
+          </p>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <div class="container my-5 d-flex justify-content-center gap-3">
-    <div class="row g-4">
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="card poker-card">
-          <img src="../assets/image/Negocio.png" class="card-img-top poker-img" alt="..." />
-          <div class="card-body">
-            <p>
-              Podemos diseñar conjuntamente el programa de formación
-              profesional que mejor se adapte a tus necesidades de
-              capacitación.
-            </p>
+<div class="d-flex justify-content-center align-items-center" style="min-height: 100vh">
+  <div class="max_width">
+    <div class="titlepage">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../assets/image/kinalAdulto.jpg" class="d-block w-100 img-fluid" alt="..."
+              style="object-fit: cover; height: 400px; width: 100%" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>EN FUNDACION KINAL</h5>
+              <p>SOMOS SUPERACION PARA ADULTOS</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/image/kinalFamilia.jpg" class="d-block w-100 img-fluid" alt="..."
+              style="object-fit: cover; height: 400px; width: 100%" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>EN FUNDACION KINAL</h5>
+              <p>SOMOS SUPERACION PARA ADULTOS</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/image/kinalElectri.jpg" class="d-block w-100 img-fluid" alt="..."
+              style="object-fit: cover; height: 400px; width: 100%" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>EN FUNDACION KINAL</h5>
+              <p>SOMOS SUPERACION PARA JOVENES</p>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="row g-4">
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="card poker-card">
-          <img src="../assets/image/Universitario.png" class="card-img-top poker-img" alt="..." />
-          <div class="card-body">
-            <p>
-              Dirigido al fortalecimiento de mandos medios y especialmente
-              aquellos que han cursado una carrera técnica y desean continuar
-              con estudios a nivel universitario. Estos estudios son avalados
-              por la Universidad del Istmo.
-            </p>
-          </div>
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
   </div>
-  <div class="d-flex justify-content-center align-items-center" style="min-height: 100vh">
-    <div class="max_width">
-      <div class="titlepage">
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="../assets/image/kinalAdulto.jpg" class="d-block w-100 img-fluid" alt="..."
-                style="object-fit: cover; height: 400px; width: 100%" />
-            </div>
-            <div class="carousel-item">
-              <img src="../assets/image/kinalFamilia.jpg" class="d-block w-100 img-fluid" alt="..."
-                style="object-fit: cover; height: 400px; width: 100%" />
-            </div>
-            <div class="carousel-item">
-              <img src="../assets/image/kinalElectri.jpg" class="d-block w-100 img-fluid" alt="..."
-                style="object-fit: cover; height: 400px; width: 100%" />
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
+</div>
+
 
   <nav class="navbar" style="background-color: #ffa726">
     <div class="container-fluid d-flex flex-column align-items-center">
