@@ -1,0 +1,284 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  
+  .container * {
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #232755;
+  }
+  
+  .container2 * {
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #232755;
+    text-align: left;
+  }
+  
+  .container3 * {
+    font-size: 35px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .figure {
+    background-color: white;
+  }
+  
+  .img {
+    width: 200px;
+  }
+  
+  .imgBi {
+    width: 100px;
+  }
+  
+  .poker-card {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-color: white;
+  }
+  
+  .imgkinal {
+    width: 1349px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .poker-img {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .card-text {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  .placeholder-glow {
+    border-radius: 10px;
+  }
+  
+  .contenedor {
+    margin-top: 200px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .contenedor img {
+    width: 770px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .timmana-regular h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #23376d;
+  }
+  
+  .timmana-regular p {
+    font-size: 2.5em;
+    color: #23376d;
+    line-height: 1.6;
+  }
+  
+  .patio {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 200px;
+  }
+  
+  .patio .texto {
+    max-width: 1000px;
+  }
+  
+  .patio img {
+    width: 500px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .number-box-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+  }
+  
+  .number-box {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .number-box h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  .number-box p {
+    margin: 5px 0 0;
+    font-size: 14px;
+  }
+  
+  .number-box.yellow {
+    background-color: #febd84;
+  }
+  
+  .number-box.burgundy {
+    background-color: #470d3b;
+  }
+  
+  .number-box.blue {
+    background-color: #002147;
+  }
+  
+  .number-box.orange {
+    background-color: #ff5252;
+  }
+  
+  .footer {
+    background-color: #ffa726;
+    padding: 40px 20px;
+    border-top: 1px solid #ddd;
+    color: #fff;
+  }
+  
+  .footer img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .footer p,
+  .footer a {
+    margin: 0;
+    color: #fff;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .footer ul li {
+    display: inline;
+  }
+  
+  .footer ul li img {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .footer h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .contact-info,
+  .address {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  
+  .contact-info h3,
+  .address h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .logo {
+    text-align: center;
+  }
+  
+  .logo img {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .social-media {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .social-media a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    background-color: #007bff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-media a:hover {
+    background-color: #0056b3;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  
+  .navbar1 {
+    margin-top: 100px;
+  }
+  
+  .logo-navbar {
+    height: 50px;
+    object-fit: contain;
+  }
+
+  .text-center ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .text-center li {
+    display: block;
+    text-align: center;
+  }
